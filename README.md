@@ -1,3 +1,2 @@
 # Hackathon
-Team Cheeseballs takes on Big Red Hacks
-By Genie Julia and Annie
+Team Cheeseballs (Genie Julia Annie) takes on Big Red Hacks
