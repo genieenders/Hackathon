@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  /* font */
+  @font-face {
+    font-family: 'Stint Ultra Expanded';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Stint_Ultra_Expanded/StintUltraExpanded-Regular.ttf);
+  }
+  
+  body {
+    font-family: Verdana, Arial, serif;
+    font-size: 100%;
+    background-color: #FFFCF7;
+    margin: 0;
+  }
+  
+  
+  /* header styles */
+  header {
+    color: white;
+    background: url(../images/croissants_banner.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 13em;
+  }
+  
+  header h1 {
+    margin-top: 1.5em;
+  }
+  
+  header p {
+    display: none;
+    margin-top: -1.5em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  
+  /* nav styles */
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: verdana, sans-serif;
+    background-color: #C2D8B9;
+  }
+  
+  nav ul li a:link,
+  nav ul li a:visited {
+    color: #6F3A34;
+  }
+  
+  nav ul li a:focus,
+  nav ul li a:hover,
+  nav ul li a:active {
+    color: #fff;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    flex-grow: 1;
+  }
+  
+  nav ul li a {
+    display: block;
+    border: 1px solid;
+    padding: .5em 1em;
+    border-radius: .5em;
+    margin: .25em;
+  }
+  
+  
+  /* main styles */
+  main {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #8E7C93;
+    margin: 5px;
+  }
+  
+  h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #7A0002;
+    border-top: 1px solid;
+    margin-top: 1.5em;
+  }
+  
+.page-middle{
+    text-align:center;
+}
+  
+  
+
+  
+  @media (min-width: 700px) {
+    nav ul li{
+      flex:none;
+    }
+  
+    nav ul{
+      justify-content: center;
+    }
+  
+    main{
+      border: double 5px hsl(39, 47%, 84%);
+      border-radius: 25px;
+      display: inline;
+      flex-grow: 80;
+      width: 75%
+    }
+  
+    main img{
+      margin-right: 10px;
+      margin-left: 20px;
+    }
+  
+    .page-middle{
+      display: flex;
+      margin: 70px;
+      border: 5px;
+    }
+  }
+  
+    header img{
+    display: flex;
+    display: inline;
+    padding: 0px;
+    margin: -30px;
+  
+    }
