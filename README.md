@@ -1,2 +1,2 @@
 # Hackathon
-Team Cheeseballs (Genie Julia Annie) takes on Big Red Hacks
+Team Cheeseballs (Genie Enders, Julia Salatti, Annie Stewart) takes on Big Red Hacks
